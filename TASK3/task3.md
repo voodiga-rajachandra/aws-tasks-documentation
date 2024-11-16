@@ -14,3 +14,7 @@
    - Click "Next: Configure Instance Details."
 
    
+   ![](images/createimgpage.png)
+   ![](images/crtimgbtn.png)
+   ![](images/amilaunch.png)
+   ![](images/output1.png)
