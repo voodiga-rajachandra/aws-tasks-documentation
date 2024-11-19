@@ -5,16 +5,30 @@
 
 ### Step 1: Create and Configure an EC2 Instance
 ***
-**Log in to the AWS Management Console and navigate to the **EC2 dashboard.**
+![](images/ami1.png)
+![](images/ami2.png)
+![](images/ami3.png)
+![](images/ami4.png)
+![](images/ami5.png)
+![](images/ami6.png)
 
- **Launch an Instance:**
-   - Click on "Launch Instance."
-   - Choose the **Amazon Linux 2 AMI**.
-   - Select an instance type (e.g., `t2.micro` for the free tier).
-   - Click "Next: Configure Instance Details."
+### Step 2: SSH into Your EC2 Instance
 
-   
-   ![](images/createimgpage.png)
-   ![](images/crtimgbtn.png)
-   ![](images/amilaunch.png)
-   ![](images/output1.png)
+![](images/ami7.png)
+![](images/ami8.png)
+### Step 3: Develop the Flask Application
+***
+![](images/ami9.png)
+### Step 4: Run the Application
+![](images/ami10.png)
+### Step 6: Create a Custom AMI
+
+![](images/ami11.png)
+![](images/ami12.png)
+![](images/ami13.png)
+![](images/ami14.png)
+![](images/ami15.png)
+![](images/ami16.png)
+![](images/ami17.png)
+![](images/ami20needtoplacebefore.png)
+![](images/ami19.png)
