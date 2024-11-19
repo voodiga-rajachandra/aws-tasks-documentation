@@ -6,11 +6,11 @@ aws ec2 create-vpc --cidr-block 10.0.0.0/16 --tag-specifications ResourceType=vp
 ### step2:create public and private subnets using aws cli
 ***
 
-aws ec2 create-subnet --vpc-id vpc-081ec835f3EXAMPLE --cidr-block 10.0.0.0/24 --tag-specifications ResourceType=subnet,Tags=[{Key=Name,Value=public-subnet}]
+aws ec2 create-subnet --vpc-id vpc-01274c987539e3042 --cidr-block 10.0.0.0/24 --tag-specifications ResourceType=subnet,Tags=[{Key=Name,Value=public-subnet}]
 
 
 aws ec2 create-subnet
---vpc-id vpc-081ec835f3EXAMPLE
+--vpc-id vpc-01274c987539e3042
 --cidr-block 10.0.0.0/24
 --tag-specifications ResourceType=subnet,Tags=[{Key=Name,Value=private-subnet}]
 
