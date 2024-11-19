@@ -31,4 +31,5 @@
 ![](images/ami16.png)
 ![](images/ami17.png)
 ![](images/ami20needtoplacebefore.png)
+![](images/amiterminalrun.png)
 ![](images/ami19.png)
