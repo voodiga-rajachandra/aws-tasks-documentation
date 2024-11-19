@@ -126,11 +126,11 @@ Resources:
     Properties:
       InstanceType: "t2.micro"
       SubnetId: !Ref AjaPubSubnet
-      ImageId: "ami-0984f4b9e98be44bf"  
+      ImageId: "ami-0166fe664262f664c"  
       SecurityGroupIds:
         - !Ref SSHSecurityGroup
         - !Ref HTTPSecurityGroup
-      KeyName: "cfvpc"
+      KeyName: "cloudformkey"
       Tags:
         - Key: Name
           Value: "PublicInstance"
@@ -140,11 +140,11 @@ Resources:
     Properties:
       InstanceType: "t2.micro"
       SubnetId: !Ref AjaPvtSubnet
-      ImageId: "ami-0984f4b9e98be44bf"
+      ImageId: "ami-0166fe664262f664c"
       SecurityGroupIds:
         - !Ref SSHSecurityGroup
         - !Ref HTTPSecurityGroup
-      KeyName: "cfvpc"
+      KeyName: "cloudformkey"
       Tags:
         - Key: Name
           Value: "PrivateInstance"
